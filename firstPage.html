@@ -5,22 +5,28 @@
   <title>Valen Dieguez</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="firstPage.css">
-  <script src="firstPage.js"></script>
+  <script type="text/javascript" src="firstPage.js"></script>
 </head>
 <body>
  <nav class="mainMenu">
     <ul>
       <li><a href="">Home</a></li>
       <li><a href="">Noticias</a></li>
-      <li><a href="">Nosotros</a></li>
+      <li><a href="">Nosotros</a>
+		<ul>
+			<li><a href="">Historia</a></li>
+			<li><a href="">Valores</a></li>
+			<li><a href="">Contacto</a></li>
+		</ul>
+		</li>
     </ul>
   </nav>
   
   <h1>Artículos y noticias del mundo</h1>
   
-  <h3 class="smallTitle"> Informática y comunicaciones </h3>
+  <h3 class="smallTitle" onclick=ocultar()> Informática y comunicaciones </h3>
   
-  <div class="paragrafo">
+  <div class="paragrafo" id=1>
 	<h4>¿Qué son las media querys?</h4>
 	<p>Las media queries son una sintaxis especial para CSS que nos permite definir unos estilos que solo se aplicarán en el caso de que se cumplan unas condiciones definidas. Podemos asimilarlos a unas líneas de código opcional, que sólo se mostrarán para algunos usuarios o dispositivos.</p>
 	
@@ -33,12 +39,12 @@
 
 	Y como el encargado del diseño en la web es el CSS, surgió un nuevo elemento capaz de incorporar esta flexibilidad a la hoja de estilos: las media queries, que pueden abarcar porciones de código que sólo se aplicarán según que condiciones: si la resolución de pantalla es pequeña, si es muy grande, si el dispositivo está en posición horizontal…
 	</p>
+	</div>
 
-
-	<h4>Investigación y ecologia</h4>
-
-	<p>Un análisis de sangre podría detectar ocho tipos de cáncer
-	Científicos de la Universidad Johns Hopkins de Estados Unidos han elaborado una prueba, denominada CancerSEEK, que podría suponer un importante avance en la lucha contra el cáncer. El trabajo, publicado en la revista Science, aún no ha sido testado ni validado, pero esta investigación podría ser capaz de detectar ocho tipos de cáncer a partir de un análisis de sangre: mama, colorrectal, pulmón, ovario, hígado, estómago, páncreas y esófago.
+	<h3 class="smallTitle">Investigación y ecologia</h3>
+	<div class="paragrafo1">
+	<h4>Un análisis de sangre podría detectar ocho tipos de cáncer</h4>
+	<p>Científicos de la Universidad Johns Hopkins de Estados Unidos han elaborado una prueba, denominada CancerSEEK, que podría suponer un importante avance en la lucha contra el cáncer. El trabajo, publicado en la revista Science, aún no ha sido testado ni validado, pero esta investigación podría ser capaz de detectar ocho tipos de cáncer a partir de un análisis de sangre: mama, colorrectal, pulmón, ovario, hígado, estómago, páncreas y esófago.
 
 	Celulas investigación
 	El test podría ayudar a reducir el número de falsos positivos – la exploración que indica una enfermedad cuando en realidad no existe – y contribuir a una mayor detección precoz de los citados tumores, minimizando así las técnicas quirúrgicas invasivas. No obstante, la investigación se halla en una fase incipiente y sus aplicaciones en la práctica clínica podrían estar aún lejos de introducirse.
@@ -63,11 +69,6 @@
     <ul>
       <li><a href="">Nuestras Noticias</a></li>
       <li><a href="">Sobre Nosotros</a></li>
-		<ul>
-			<li><a href="">Historia</a></li>
-			<li><a href="">Valores</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
       <li><a href="">Contacto</a></li>
 	  <li><a href="">Otros</a></li>
     </ul>

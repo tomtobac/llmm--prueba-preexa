@@ -1,9 +1,107 @@
  body {
 	 background-color: #c2d1f0;
-	  
+	 
+ }
+ h1 {
+	 text-align:center;
  }
  
- .mainMenu {
-	 
-	 background-color:#3266cd;
+ .smallTitle {
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: black;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	background: #3266cd;
+	margin: 100px 50px 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 35px 35px 35px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 2px solid #3266cd;
+	position:relative;
+	align-items: center;
  }
+ 
+ .mainMenu ul {
+		position: relative;
+		display: inline-flex;
+		padding:0;
+		margin: 0;
+		font-size: 15px;
+		list-style: none;
+		
+	}
+	.mainMenu a {
+		display: block;
+		padding: 15px 85px;
+		font-size: 15px;
+		background-color: #3266cd;
+		text-decoration: none;
+		color: white;
+		border: 2px black solid;
+		position: relative;
+	}
+	.mainMenu a:hover {
+		background-color: white;
+		color: black;
+	}
+	.mainMenu ul li ul {
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: black;
+
+	
+	}
+	
+	.mainMenu ul li a:hover + ul, .mainMenu ul li ul:hover {
+		display: block;
+		background-color: white;
+		color: black;
+
+	}
+	
+	.paragrafo{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: black;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	background: #b3b3ff;
+	margin: 100px 50px 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 35px 35px 35px;
+	visibility: visible;
+	width:75%;
+	display : 
+	}
+	
+	.paragrafo1{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	color: black;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	background: #b3b3ff;
+	margin: 100px 50px 25px;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 35px 35px 35px 35px;
+	
+	}
+	
+	
+	.menuVertical {
+		display: block;
+		padding: 15px 85px;
+		font-size: 15px;
+		background-color: #3266cd;
+		text-decoration: none;
+		color: white;
+		border: 2px black solid;
+		position: relative;
+		width: 25%;
+	}
